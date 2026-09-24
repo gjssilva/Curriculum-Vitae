@@ -1,0 +1,43 @@
+/*Seletor por elemento, que muda a cor do fundo e da fonte*/
+body {
+    background: #090979;
+    color: #FFFFFF;
+}
+
+/*Uma das duas fontes, essa sendo a externa*/
+.fonte_externa{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/*Seletor por ID*/
+#assinatura {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /*Outra das duas fonte*/
+    font-size: large;
+    font-style: oblique; /*Opção de estilo de fonte oblíquo*/
+    text-decoration: underline; /*Decoração de texto*/
+}
+
+/*Seletor por classe*/
+.contato {
+    font-style: italic; /*Opção de estilo de fonte itálico*/
+}
+
+section p {
+    margin: 2%;
+}
+
+/*Seletor por atributo, que muda a cor dos links para o LinkedIn e GitHub*/
+a[href = "https://www.linkedin.com/in/gjssilva/"], a[href = "https://github.com/gjssilva"] {
+    color: #F8FF94;
+}
+
+/*Seletor por pseudo-clase, que altera a cor dos links para vermelho ao passar o mouse*/
+a:hover {
+    color: #FF4242;
+}
+
